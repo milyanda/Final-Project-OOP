@@ -1,7 +1,7 @@
 # Sprint Planning 
 | 17/11/2020
 
-### Team (Insert your name)
+### Team (Dian's Genk)
 | NPM           | Name        |
 | ------------- |-------------|
 | 140810190034  | Milyanda V. |
