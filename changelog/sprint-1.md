@@ -1,12 +1,12 @@
 # Scrum Report (Sprint 1)
 | From dd/mm/yyyy to dd/mm/yyyy
 
-## Team (Insert your name)
+## Team (Dian's Genk)
 | NPM           | Name        |
 | ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+| 140810190034  | Milyanda V. |
+| 140810190042  | Diandha C.  |
+| 140810190072  | Gilang A.H. |
 
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
@@ -15,10 +15,13 @@
 
 ## Sprint 1 Backlog
 
-| ID  | Title/Desc | Asignee | Status |
-| --- | ---------- | ------- | ------ |
-| 1.1 | Preparing the x | Jane Doe | DONE |
-| 1.2 | Make the x | John Doe | FAILED |
+| ID    |                         Title/Desc                           | Asignee  | Status |
+| ----- | ------------------------------------------------------------ | -------- | ------ |
+|  1.1  | Create The Box                                               | Gilang   |        |
+|  2.2  | Create the Snake                                             | Diandha  |        | 
+|  3.3  | Implementation of snake's movement                           | Milyanda |        | 
+|  4.4  | Test the movement                                            | Milyanda |        | 
+|  5.5  | Create the fruit                                             | Diandha  |        | 
 
 ## Retrospective 
 
