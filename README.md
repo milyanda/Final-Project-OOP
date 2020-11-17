@@ -9,9 +9,9 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 ## Credits
 | NPM           | Name        |
 | ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+| 140810190034  | Milyanda V. |
+| 140810190042  | Diandha C.  |
+| 140810190072  | Gilang A.H. |
 
 ## Change log
 - **[Sprint Planning](changelog/sprint-planning.md) - (17/11/2020)** 
