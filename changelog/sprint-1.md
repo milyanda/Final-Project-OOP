@@ -1,5 +1,5 @@
 # Scrum Report (Sprint 1)
-| From dd/mm/yyyy to dd/mm/yyyy
+| From 17/11/2020 to dd/mm/yyyy
 
 ## Team (Dian's Genk)
 | NPM           | Name        |
@@ -11,7 +11,7 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| n             | n             |
+| 6             | n             |
 
 ## Sprint 1 Backlog
 
