@@ -12,30 +12,38 @@
 | ID    |                         Title/Desc                           | Asignee  | 
 | ----- | ------------------------------------------------------------ | -------- | 
 |  1.1  | Create The Box                                               | Gilang   | 
-|  2.2  | Create the Snake                                             | Diandha  | 
-|  3.3  | Implementation of snake's movement                           | Milyanda | 
-|  4.4  | Test the movement                                            | Milyanda | 
-|  5.5  | Create the fruit                                             | Diandha  | 
-|  6.6  | Have the fruit show up                                       |          | 
-|  7.7  | Test the fruit                                               |          | 
-|  8.8  | Implementation of size improvement caused by fruit intake    |          | 
-|  9.9  | Implementation of the game's regulation                      |          | 
-| 10.10 | Create the score                                             |          | 
-| 11.11 | Create the fruit                                             |          | 
-| 12.12 | Implementation of Restart and GameOver                       |          | 
-| 13.13 | Test the game                                                |          |
-| 14.14 | Fix bugs                                                     |          | 
-| 15.15 | Make sure the game is ready                                  |          | 
+|  1.2  | Create the Snake                                             | Diandha  | 
+|  2.1  | Implementation of snake's movement                           | Milyanda | 
+|  2.2  | Test the movement                                            | Milyanda | 
+|  2.3  | Create the fruit                                             | Diandha  | 
+|  2.4  | Have the fruit show up                                       |   Diandha     | 
+|  2.5  | Test the fruit                                               |   Diandha        | 
+|  2.6  | Implementation of size improvement caused by fruit intake    |  Diandha         | 
+|  2.7  | Implementation of the game's regulation                      |    Milyanda       | 
+| 3.1   | Create the score                                             |   Gilang       | 
+| 3.2   | Implementation of Restart and GameOver                       |    Milyanda         | 
+| 3.3   | Test the game                                                |   Gilang       |
+| 3.4   | Fix bugs                                                     |     Milyanda        | 
+| 3.5   | Make sure the game is ready                                  |  Gilang        | 
 
 ## Sprint Backlog Plan (Sprint 1)
 | ID    |                         Title/Desc                           | Asignee  | 
 | ----- | ------------------------------------------------------------ | -------- | 
 |  1.1  | Create The Box                                               | Gilang   | 
-|  2.2  | Create the Snake                                             | Diandha  | 
-|  3.3  | Implementation of snake's movement                           | Milyanda | 
-|  4.4  | Test the movement                                            | Milyanda | 
-|  5.5  | Create the fruit                                             | Diandha  | 
+|  1.2  | Create the Snake                                             | Diandha  | 
+|  1.3  | Implementation of snake's movement                           | Milyanda | 
+|  1.4  | Test the movement                                            | Milyanda | 
+|  1.5  | Create the fruit                                             | Diandha  | 
+
+## Sprint Backlog Plan (Sprint 2)
+|  2.1  | Implementation of snake's movement                           | Milyanda | 
+|  2.2  | Test the movement                                            | Milyanda | 
+|  2.3  | Create the fruit                                             | Diandha  | 
+|  2.4  | Have the fruit show up                                       |   Diandha     | 
+|  2.5  | Test the fruit                                               |   Diandha        | 
+|  2.6  | Implementation of size improvement caused by fruit intake    |  Diandha         | 
+|  2.7  | Implementation of the game's regulation                      |    Milyanda       | 
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+Pada sprint 1 anggota kelompok belum terlalu memahami materi dan banyak kesibukan lain, sehingga kurang bisa mencapai target yang diharapkan. 
