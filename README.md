@@ -25,13 +25,13 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - Create the fruit
 
 - **[Sprint 2](changelog/sprint-2.md) - (date from 23/11/2020 until 30/11/2020)** 
-   - Implementation of snake's movement                           | Milyanda | 
-   - Test the movement                                            | Milyanda | 
-   - Create the fruit                                             | Diandha  | 
-   - Have the fruit show up                                       |   Diandha     | 
-   - Test the fruit                                               |   Diandha        | 
-   - Implementation of size improvement caused by fruit intake    |  Diandha         | 
-   - Implementation of the game's regulation                      |    Milyanda       | 
+   - Implementation of snake's movement                           
+   - Test the movement                                    
+   - Create the fruit                                  
+   - Have the fruit show up                          
+   - Test the fruit                                              
+   - Implementation of size improvement caused by fruit intake   
+   - Implementation of the game's regulation                     
    
 - **[Sprint 3](changelog/sprint-3.md) - (date from x until x)** 
    - Short changes 1
