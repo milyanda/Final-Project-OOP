@@ -26,4 +26,16 @@
 ## Retrospective 
 Anggota kelompok banyak kesibukan lain, sehingga kurang bisa mencapai target yang diharapkan.
 
+## Next Sprint Backlog (Sprint 2)
+| ID  | Title/Desc | Asignee | 
+| --- | ---------- | ------- | 
+|  2.1  | Implementation of snake's movement                           | Milyanda | 
+|  2.2  | Test the movement                                            | Milyanda | 
+|  2.3  | Create the fruit                                             | Diandha  | 
+|  2.4  | Have the fruit show up                                       |   Diandha     | 
+|  2.5  | Test the fruit                                               |   Diandha        | 
+|  2.6  | Implementation of size improvement caused by fruit intake    |  Diandha         | 
+|  2.7  | Implementation of the game's regulation                      |    Milyanda       | 
+
+
 
