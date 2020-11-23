@@ -1,28 +1,31 @@
 # Scrum Report (Sprint 2)
-| From dd/mm/yyyy to dd/mm/yyyy
+| From 24/11/2020 to 30/11/2020
 
-## Team (Insert your name)
+## Team (Dian's Genk)
 | NPM           | Name        |
 | ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+| 140810190034  | Milyanda Vania    |
+| 140810190042  | Diandha Carnatia    |
+| 140810190072  | Gilang A.H |
 
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| n             | n             |
+| 7             | n             |
 
 ## Sprint 2 Backlog
-
-| ID  | Title/Desc | Asignee | Status |
-| --- | ---------- | ------- | ------ |
-| 2.1 | Preparing the x | Jane Doe | DONE |
-| 2.2 | Make the x | John Doe | FAILED |
+| ID  | Title/Desc | Asignee | 
+| --- | ---------- | ------- | 
+|  2.1  | Implementation of snake's movement                           | Milyanda | 
+|  2.2  | Test the movement                                            | Milyanda | 
+|  2.3  | Create the fruit                                             | Diandha  | 
+|  2.4  | Have the fruit show up                                       |   Diandha     | 
+|  2.5  | Test the fruit                                               |   Diandha        | 
+|  2.6  | Implementation of size improvement caused by fruit intake    |  Diandha         | 
+|  2.7  | Implementation of the game's regulation                      |    Milyanda       | 
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
 
 ## Next Sprint Backlog (Sprint 3)
 | ID  | Title/Desc | Asignee | 
