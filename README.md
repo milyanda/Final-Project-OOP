@@ -1,4 +1,4 @@
-# Project Name
+# Snake Game
 
 This repository is a final project (Java GUI) from Object-Oriented Programming Class, Teknik Informatika Universitas Padjadjaran. 
 
@@ -24,17 +24,23 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - Test the movement
    - Create the fruit
 
-- **[Sprint 2](changelog/sprint-2.md) - (date from x until x)** 
-   - Short changes 1
-   - Short changes 2
+- **[Sprint 2](changelog/sprint-2.md) - (date from 23/11/2020 until 30/11/2020)** 
+   - Implementation of snake's movement                           | Milyanda | 
+   - Test the movement                                            | Milyanda | 
+   - Create the fruit                                             | Diandha  | 
+   - Have the fruit show up                                       |   Diandha     | 
+   - Test the fruit                                               |   Diandha        | 
+   - Implementation of size improvement caused by fruit intake    |  Diandha         | 
+   - Implementation of the game's regulation                      |    Milyanda       | 
    
 - **[Sprint 3](changelog/sprint-3.md) - (date from x until x)** 
    - Short changes 1
    - Short changes 2
 
 ## Running The App
-
-TO;DO with steps
+   - Mengcompile Main.java di terminal 
+   - Mengetik java Main di terminal
+   - Mainkan Snake Game nya.
 
 ## Classes Used
 
@@ -43,5 +49,8 @@ TO;DO
 UML image here
 
 ## Notable Assumption and Design App Details
-
-TO;DO
+ - Ular muncul dengan panjang awal 5 sel dan posisi kepala ada ditengah-tengah area game.
+ - Ular akan mulai bergerak maju setelah pengguna memberikan input dengan menekan tombol spasi.
+ - Dan juga setelah aplikasi dimulai buah pertama akan muncul secara random.
+ - Jika buah termakan oleh ular, maka ular akan bertambah panjangnya pada bagian kepala sebanyak satu sel. Dengan kata lain, pada saat buah dimakan, buah tersebut    berubah menjadi kepala baru ular.
+ - Jika game selesai, munculkan dialog baru untuk menampilkan score. Dan jika dialog ditutup, game akan mereset ke posisi awal lagi.
