@@ -18,10 +18,10 @@
 |  2.3  | Create the fruit                                             | Diandha  | 
 |  2.4  | Have the fruit show up                                       |   Diandha     | 
 |  2.5  | Test the fruit                                               |   Diandha        | 
-|  2.6  | Implementation of size improvement caused by fruit intake    |  Diandha         | 
+|  2.6  | Implementation of size improvement caused by fruit intake    |  Milyanda         | 
 |  2.7  | Implementation of the game's regulation                      |    Milyanda       | 
 | 3.1   | Create the score                                             |   Gilang       | 
-| 3.2   | Implementation of Restart and GameOver                       |    Milyanda         | 
+| 3.2   | Implementation of Restart and GameOver                       |    Diandha         | 
 | 3.3   | Test the game                                                |   Gilang       |
 | 3.4   | Fix bugs                                                     |     Milyanda        | 
 | 3.5   | Make sure the game is ready                                  |  Gilang        | 
@@ -41,9 +41,19 @@
 |  2.3  | Create the fruit                                             | Diandha  | 
 |  2.4  | Have the fruit show up                                       |   Diandha     | 
 |  2.5  | Test the fruit                                               |   Diandha        | 
-|  2.6  | Implementation of size improvement caused by fruit intake    |  Diandha         | 
+|  2.6  | Implementation of size improvement caused by fruit intake    |  Milyanda         | 
 |  2.7  | Implementation of the game's regulation                      |    Milyanda       | 
+
+## Sprint Backlog Plan (Sprint 3)
+| ID  | Title/Desc | Asignee | 
+| --- | ---------- | ------- | 
+| 3.1 | Create the score | Gilang | 
+| 3.2 | Implementation of Restart and GameOver | Diandha | 
+| 3.2 | Test the game | Gilang | 
+| 3.2 | Fix bugs | Milyanda |
+| 3.2 | Make sure the game is ready | Gilang |
 
 ## Retrospective 
 
 Pada sprint 1 anggota kelompok belum terlalu memahami materi dan banyak kesibukan lain, sehingga kurang bisa mencapai target yang diharapkan. 
+Pada sprint 2, kekurangan pada programnya yaitu, jumlah sel belum 100x100. Posisi awal snake belum ditengah. Memulai game belum menggunakan key space.
