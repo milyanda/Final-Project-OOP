@@ -36,6 +36,8 @@
 |  1.5  | Create the fruit                                             | Diandha  | 
 
 ## Sprint Backlog Plan (Sprint 2)
+| ID  | Title/Desc | Asignee | 
+| --- | ---------- | ------- | 
 |  2.1  | Implementation of snake's movement                           | Milyanda | 
 |  2.2  | Test the movement                                            | Milyanda | 
 |  2.3  | Create the fruit                                             | Diandha  | 
