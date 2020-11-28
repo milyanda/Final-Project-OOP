@@ -14,15 +14,15 @@
 | 7             | n             |
 
 ## Sprint 2 Backlog
-| ID  | Title/Desc | Asignee | 
-| --- | ---------- | ------- | 
-|  2.1  | Implementation of snake's movement                           | Milyanda | 
-|  2.2  | Test the movement                                            | Milyanda | 
-|  2.3  | Create the fruit                                             | Diandha  | 
-|  2.4  | Have the fruit show up                                       |   Diandha     | 
-|  2.5  | Test the fruit                                               |   Diandha        | 
-|  2.6  | Implementation of size improvement caused by fruit intake    |  Diandha         | 
-|  2.7  | Implementation of the game's regulation                      |    Milyanda       | 
+| ID  | Title/Desc | Asignee | Status |
+| --- | ---------- | ------- | ------ |
+|  2.1  | Implementation of snake's movement                           | Milyanda | DONE |
+|  2.2  | Test the movement                                            | Milyanda | DONE |
+|  2.3  | Create the fruit                                             | Diandha  | DONE |
+|  2.4  | Have the fruit show up                                       |   Diandha     | DONE |
+|  2.5  | Test the fruit                                               |   Diandha        | DONE |
+|  2.6  | Implementation of size improvement caused by fruit intake    |  Milyanda         | DONE |
+|  2.7  | Implementation of the game's regulation                      |    Milyanda       | DONE |
 
 ## Retrospective 
 
@@ -30,5 +30,8 @@
 ## Next Sprint Backlog (Sprint 3)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 3.1 | Preparing the x | Jane Doe | 
-| 3.2 | Make the x | John Doe | 
+| 3.1 | Create the score | Gilang | 
+| 3.2 | Implementation of Restart and GameOver | Diandha | 
+| 3.2 | Test the game | Gilang | 
+| 3.2 | Fix bugs | Milyanda |
+| 3.2 | Make sure the game is ready | Gilang |
