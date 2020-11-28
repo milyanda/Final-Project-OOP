@@ -11,7 +11,7 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| 7             | n             |
+| 7             | 7             |
 
 ## Sprint 2 Backlog
 | ID  | Title/Desc | Asignee | Status |
@@ -25,7 +25,7 @@
 |  2.7  | Implementation of the game's regulation                      |    Milyanda       | DONE |
 
 ## Retrospective 
-
+Pada sprint 2, kekurangan pada programnya yaitu, jumlah sel belum 100x100. Posisi awal snake belum ditengah. Memulai game belum menggunakan key space.
 
 ## Next Sprint Backlog (Sprint 3)
 | ID  | Title/Desc | Asignee | 
