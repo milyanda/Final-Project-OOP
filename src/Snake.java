@@ -13,12 +13,13 @@ public class Snake extends JPanel implements ActionListener {
     private static final int DELAY = 75;
     private final int x[] = new int[GAME_UNITS];
     private final int y[] = new int[GAME_UNITS];
+	
     private int bodyParts = 5;
     private int applesEaten;
     private int appleX;
     private int appleY; 
     private char direction = 'R';
-private static boolean gameOn = false; 
+    private static boolean gameOn = false; 
     private boolean running = false;
     private Timer timer;
     private Random random;
