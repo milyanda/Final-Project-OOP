@@ -40,12 +40,12 @@ public class Snake extends JPanel implements ActionListener {
 
     }
     public void pause() {
-		GamePanel.gameOn = true;
+		Snake.gameOn = true;
 		timer.stop();
 	}
 
 	private void resume() {
-		GamePanel.gameOn = false;
+		Snake.gameOn = false;
 		timer.start();
 	}
     
