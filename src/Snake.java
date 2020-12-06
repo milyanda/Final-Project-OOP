@@ -255,6 +255,14 @@ public class Snake extends JPanel implements ActionListener {
                     direction = 'D';
                 }
                 break;
+		
+		case KeyEvent.VK_ENTER:
+		if(GamePanel.gameOn) {
+			resume();
+		} else {
+			pause();
+		}
+                break;
             }
 
         }
