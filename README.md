@@ -33,9 +33,12 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - Implementation of size improvement caused by fruit intake   
    - Implementation of the game's regulation                     
    
-- **[Sprint 3](changelog/sprint-3.md) - (date from x until x)** 
-   - Short changes 1
-   - Short changes 2
+- **[Sprint 3](changelog/sprint-3.md) - (date from 01/12/2020 until 06/12/2020)** 
+   - Create the score
+   - Implementation of Restart and GameOver
+   - Test the game
+   - Fix bugs
+   - Make sure the game is ready
 
 ## Running The App
    - Mengcompile Main.java di terminal 
