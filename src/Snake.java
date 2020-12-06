@@ -70,11 +70,11 @@ public class Snake extends JPanel implements ActionListener {
         g.fillOval(appleX, appleY, UNIT_SIZE, UNIT_SIZE);
         if (awal == 0){
             for(int i=0; i < bodyParts; i++){
-                x[0]=350;
-                x[1]=343;
-                x[2]=336;
-                x[3]=329;
-                x[4]=322;
+                x[0]=300;
+                x[1]=294;
+                x[2]=288;
+                x[3]=282;
+                x[4]=276;
 
                 y[0]=300;
                 y[1]=300;
