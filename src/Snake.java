@@ -76,11 +76,11 @@ public class Snake extends JPanel implements ActionListener {
                 x[3]=329;
                 x[4]=322;
 
-                y[0]=350;
-                y[1]=350;
-                y[2]=350;
-                y[3]=350;
-                y[4]=350;
+                y[0]=300;
+                y[1]=300;
+                y[2]=300;
+                y[3]=300;
+                y[4]=300;
             }
 
         }
