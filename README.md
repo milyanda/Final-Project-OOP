@@ -52,7 +52,7 @@ Kelas yang dipakai
 - Board sebagai class untuk menampilkan board dari game
 - Main sebagai main class
 
-![Gambar UML Snake](images/uml.jpg)
+![Gambar UML Snake](images/uml.png)
 
 ## Notable Assumption and Design App Details
  - Ular muncul dengan panjang awal 5 sel dan posisi kepala ada ditengah-tengah area game.
