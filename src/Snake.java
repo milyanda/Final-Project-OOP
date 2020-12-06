@@ -186,26 +186,26 @@ public class Snake extends JPanel implements ActionListener {
      public void gameOver(Graphics g){
         //Game Over text
         g.setColor(Color.red);
-        g.setFont(new Font("arial", Font.BOLD, 90));
+        g.setFont(new Font("Ink Free", Font.BOLD, 70));
         FontMetrics metrics1 = getFontMetrics(g.getFont());
         g.drawString("!! Game Over !!", (SCREEN_WIDTH - metrics1.stringWidth("!! Game Over !!"))/2, SCREEN_HEIGHT/2);
         
         //Start
         g.setColor(Color.black);
-        g.setFont(new Font("arial", Font.BOLD, 40));
+        g.setFont(new Font("Ink Free", Font.BOLD, 30));
         FontMetrics metrics3 = getFontMetrics(g.getFont());
         g.drawString("Space to Start", (SCREEN_WIDTH - metrics3.stringWidth("Enter to Restart"))/2, SCREEN_HEIGHT/3);
         
         //Restart
         g.setColor(Color.orange);
-        g.setFont(new Font("arial", Font.BOLD, 30));
+        g.setFont(new Font("Ink Free", Font.BOLD, 20));
         FontMetrics metrics7 = getFontMetrics(g.getFont());
         g.drawString("Enter to Restart", (SCREEN_WIDTH - metrics7.stringWidth("Enter to Restart"))/2, SCREEN_HEIGHT/4);
         
 
         //Score
         g.setColor(Color.white);
-        g.setFont(new Font("arial", Font.BOLD, 30));
+        g.setFont(new Font("Ink Free", Font.BOLD, 20));
         FontMetrics metrics2 = getFontMetrics(g.getFont());
         g.drawString("Score: " +applesEaten, (SCREEN_WIDTH - metrics2.stringWidth("Score: " +applesEaten))/2, g.getFont().getSize()); 
 
