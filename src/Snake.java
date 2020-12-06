@@ -8,7 +8,7 @@ import javax.swing.JPanel;
 public class Snake extends JPanel implements ActionListener {
     private static final int SCREEN_WIDTH = 700;
     private static final int SCREEN_HEIGHT = 700;
-    private static final int UNIT_SIZE = 20;
+    private static final int UNIT_SIZE = 7;
     private static final int GAME_UNITS = (SCREEN_WIDTH*SCREEN_HEIGHT)/UNIT_SIZE;
     private static final int DELAY = 75;
     private final int x[] = new int[GAME_UNITS];
