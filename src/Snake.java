@@ -98,7 +98,7 @@ public class Snake extends JPanel implements ActionListener {
             }
         }
         g.setColor(Color.white);
-        g.setFont(new Font("Ink Free", Font.BOLD, 30));
+        g.setFont(new Font("Ink Free", Font.BOLD, 20));
         FontMetrics metrics = getFontMetrics(g.getFont());
         g.drawString("Score: " +applesEaten, (SCREEN_WIDTH - metrics.stringWidth("Score: " +applesEaten))/2, g.getFont().getSize());
 
