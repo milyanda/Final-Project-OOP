@@ -263,6 +263,11 @@ public class Snake extends JPanel implements ActionListener {
 			pause();
 		}
                 break;
+		
+		case KeyEvent.VK_SPACE:
+                running = true;
+                repaint();
+                break;
             }
 
         }
