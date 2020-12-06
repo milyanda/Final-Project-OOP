@@ -31,7 +31,8 @@ Pada sprint 2, kekurangan pada programnya yaitu, jumlah sel belum 100x100. Posis
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
 | 3.1 | Create the score | Gilang | 
-| 3.2 | Implementation of Restart and GameOver | Diandha | 
-| 3.3 | Test the game | Gilang | 
-| 3.4 | Fix bugs | Milyanda |
-| 3.5 | Make sure the game is ready | Gilang |
+| 3.2   | Implementation of GameOver  |   Diandha         | 
+| 3.3 | Implementation of Restart | Gilang | 
+| 3.4 | Test the game | Gilang | 
+| 3.5 | Fix bugs | Milyanda |
+| 3.6 | Make sure the game is ready | Gilang |
