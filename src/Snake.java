@@ -6,21 +6,22 @@ import javax.swing.JPanel;
 
 
 public class Snake extends JPanel implements ActionListener {
-    static final int SCREEN_WIDTH = 700;
-    static final int SCREEN_HEIGHT = 700;
-    static final int UNIT_SIZE = 20;
-    static final int GAME_UNITS = (SCREEN_WIDTH*SCREEN_HEIGHT)/UNIT_SIZE;
-    static final int DELAY = 75;
-    final int x[] = new int[GAME_UNITS];
-    final int y[] = new int[GAME_UNITS];
-    int bodyParts = 5;
-    int applesEaten;
-    int appleX;
-    int appleY; 
-    char direction = 'R';
-    boolean running = false;
-    Timer timer;
-    Random random;
+    private static final int SCREEN_WIDTH = 700;
+    private static final int SCREEN_HEIGHT = 700;
+    private static final int UNIT_SIZE = 20;
+    private static final int GAME_UNITS = (SCREEN_WIDTH*SCREEN_HEIGHT)/UNIT_SIZE;
+    private static final int DELAY = 75;
+    private final int x[] = new int[GAME_UNITS];
+    private final int y[] = new int[GAME_UNITS];
+    private int bodyParts = 5;
+    private int applesEaten;
+    private int appleX;
+    private int appleY; 
+    private char direction = 'R';
+    private boolean running = false;
+    private Timer timer;
+    private Random random;
+    private int awal = 0;
 
     Snake(){
         random = new Random();
@@ -38,7 +39,16 @@ public class Snake extends JPanel implements ActionListener {
         timer.start();
 
     }
+    public void pause() {
+		GamePanel.gameOn = true;
+		timer.stop();
+	}
 
+	private void resume() {
+		GamePanel.gameOn = false;
+		timer.start();
+	}
+    
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         draw(g);
@@ -57,8 +67,24 @@ public class Snake extends JPanel implements ActionListener {
 
         g.setColor(Color.red);
         g.fillOval(appleX, appleY, UNIT_SIZE, UNIT_SIZE);
+        if (awal == 0){
+            for(int i=0; i < bodyParts; i++){
+                x[0]=350;
+                x[1]=343;
+                x[2]=336;
+                x[3]=329;
+                x[4]=322;
 
+                y[0]=350;
+                y[1]=350;
+                y[2]=350;
+                y[3]=350;
+                y[4]=350;
+            }
+
+        }
         for(int i = 0; i < bodyParts; i++){
+            awal++;
             if (i==0){
                 g.setColor(Color.MAGENTA);
                 g.fillRect(x[i], y[i], UNIT_SIZE, UNIT_SIZE);
@@ -68,6 +94,11 @@ public class Snake extends JPanel implements ActionListener {
                 g.fillRect(x[i], y[i], UNIT_SIZE, UNIT_SIZE);
             }
         }
+        g.setColor(Color.white);
+        g.setFont(new Font("Ink Free", Font.BOLD, 30));
+        FontMetrics metrics = getFontMetrics(g.getFont());
+        g.drawString("Score: " +applesEaten, (SCREEN_WIDTH - metrics.stringWidth("Score: " +applesEaten))/2, g.getFont().getSize());
+
         }
 
         else {
