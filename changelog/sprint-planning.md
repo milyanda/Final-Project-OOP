@@ -21,7 +21,8 @@
 |  2.6  | Implementation of size improvement caused by fruit intake    |  Milyanda         | 
 |  2.7  | Implementation of the game's regulation                      |    Milyanda       | 
 | 3.1   | Create the score                                             |   Gilang       | 
-| 3.2   | Implementation of Restart and GameOver                       |    Diandha         | 
+| 3.2   | Implementation of GameOver                       |    Diandha         | 
+| 3.2   | Implementation of Restart                      |    Gilang        | 
 | 3.3   | Test the game                                                |   Gilang       |
 | 3.4   | Fix bugs                                                     |     Milyanda        | 
 | 3.5   | Make sure the game is ready                                  |  Gilang        | 
@@ -50,10 +51,11 @@
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
 | 3.1 | Create the score | Gilang | 
-| 3.2 | Implementation of Restart and GameOver | Diandha | 
-| 3.2 | Test the game | Gilang | 
-| 3.2 | Fix bugs | Milyanda |
-| 3.2 | Make sure the game is ready | Gilang |
+| 3.2   | Implementation of GameOver  |   Diandha         | 
+| 3.3 | Implementation of Restart | Gilang | 
+| 3.4 | Test the game | Gilang | 
+| 3.5 | Fix bugs | Milyanda |
+| 3.6 | Make sure the game is ready | Gilang |
 
 ## Retrospective 
 
