@@ -18,6 +18,7 @@ public class Snake extends JPanel implements ActionListener {
     private int appleX;
     private int appleY; 
     private char direction = 'R';
+private static boolean gameOn = false; 
     private boolean running = false;
     private Timer timer;
     private Random random;
