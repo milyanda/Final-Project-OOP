@@ -177,6 +177,15 @@ public class Snake extends JPanel implements ActionListener {
 
     }
     
+        public void reset(){
+        this.add(new GamePanel());
+        running =true;
+        startGame();
+        repaint();
+        pause();
+        resume();
+    }
+    
     @Override
     public void actionPerformed(ActionEvent e){
         if(running) {
