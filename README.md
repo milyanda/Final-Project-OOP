@@ -47,9 +47,12 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 ## Classes Used
 
-TO;DO
+Kelas yang dipakai
+- Snake sebagai pusat dari game yang mencakup pergerakan snake, method - method untuk fruit, tampilan, gameover dan restart
+- Board sebagai class untuk menampilkan board dari game
+- Main sebagai main class
 
-UML image here
+![Gambar UML Snake](images/uml.jpg)
 
 ## Notable Assumption and Design App Details
  - Ular muncul dengan panjang awal 5 sel dan posisi kepala ada ditengah-tengah area game.
