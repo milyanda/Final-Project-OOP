@@ -35,7 +35,6 @@ private static boolean gameOn = false;
 
     public void startGame(){
         newApple();
-        running = true;
         timer = new Timer(DELAY,this);
         timer.start();
 
