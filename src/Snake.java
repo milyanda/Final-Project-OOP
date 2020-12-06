@@ -212,7 +212,7 @@ public class Snake extends JPanel implements ActionListener {
     }
     
         public void reset(){
-        this.add(new GamePanel());
+        this.add(new Snake());
         running =true;
         startGame();
         repaint();
