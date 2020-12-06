@@ -71,7 +71,7 @@ public class Snake extends JPanel implements ActionListener {
         }
 
         else {
-            // gameOver(g);
+            gameOver(g);
         }
     }
 
