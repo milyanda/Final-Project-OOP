@@ -87,9 +87,11 @@ public class Snake extends JPanel implements ActionListener {
         for(int i = 0; i < bodyParts; i++){
             awal++;
             if (i==0){
+		pause();
                 g.setColor(Color.MAGENTA);
                 g.fillRect(x[i], y[i], UNIT_SIZE, UNIT_SIZE);
             } else {
+		resume();
                 g.setColor(Color.white);
                 g.setColor(new Color(random.nextInt(255),random.nextInt(255),random.nextInt(255)));
                 g.fillRect(x[i], y[i], UNIT_SIZE, UNIT_SIZE);
@@ -258,7 +260,7 @@ public class Snake extends JPanel implements ActionListener {
                 break;
 		
 		case KeyEvent.VK_ENTER:
-		if(GamePanel.gameOn) {
+		if(Snake.gameOn) {
 			resume();
 		} else {
 			pause();
