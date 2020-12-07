@@ -13,13 +13,14 @@ public class Snake extends JPanel implements ActionListener {
     private static final int DELAY = 75;
     private final int x[] = new int[GAME_UNITS];
     private final int y[] = new int[GAME_UNITS];
+private static boolean gameOn = false; 
+    private static boolean reset = false;
 	
     private int bodyParts = 5;
     private int applesEaten;
     private int appleX;
     private int appleY; 
     private char direction = 'R';
-    private static boolean gameOn = false; 
     private boolean running = false;
     private Timer timer;
     private Random random;
@@ -106,6 +107,9 @@ public class Snake extends JPanel implements ActionListener {
 
         else {
             gameOver(g);
+		 if (reset = true){
+                repaint();
+            }
         }
     }
 
@@ -163,7 +167,7 @@ public class Snake extends JPanel implements ActionListener {
         }
 
         //if head touches right border
-        if(x[0] > SCREEN_WIDTH){
+        if(x[0] > SCREEN_WIDTH-bodyParts){
             running = false;
         }
 
@@ -173,7 +177,7 @@ public class Snake extends JPanel implements ActionListener {
         }
 
         //if head touches bottom border
-        if(y[0] > SCREEN_HEIGHT){
+        if(y[0] > SCREEN_HEIGHT-bodyParts){
             running = false;
         }
 
@@ -211,15 +215,18 @@ public class Snake extends JPanel implements ActionListener {
 
     }
     
-        public void reset(){
-        this.add(new Snake());
-        running =true;
-        startGame();
-        repaint();
-        pause();
-        resume();
+    public void reset(){
+        if (running == false && gameOn == false){
+            applesEaten = 0;
+            bodyParts = 5;
+            awal = 0;
+            direction = 'R';
+            gameOn = true;
+            running = true;
+            reset = true;
+        }
     }
-    
+	
     @Override
     public void actionPerformed(ActionEvent e){
         if(running) {
@@ -267,9 +274,13 @@ public class Snake extends JPanel implements ActionListener {
 		}
                 break;
 		
-		case KeyEvent.VK_SPACE:
-                running = true;
-                repaint();
+                case KeyEvent.VK_SPACE:
+                if(running == false){
+                    running = true;
+                    awal = 0;
+                    applesEaten = 0;
+                    repaint();
+                }
                 break;
 		
 		case KeyEvent.VK_SHIFT:
