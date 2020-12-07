@@ -27,6 +27,6 @@
 ## Retrospective 
 
 View awal game masih menggunakan view game over.
-Restart belum berhasil.
+
 
 
