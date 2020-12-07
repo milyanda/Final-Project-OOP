@@ -198,7 +198,7 @@ private static boolean gameOn = false;
         g.setColor(Color.black);
         g.setFont(new Font("Ink Free", Font.BOLD, 30));
         FontMetrics metrics3 = getFontMetrics(g.getFont());
-        g.drawString("Space to Start", (SCREEN_WIDTH - metrics3.stringWidth("Shift to Restart"))/2, SCREEN_HEIGHT/3);
+        g.drawString("Space to Start", (SCREEN_WIDTH - metrics3.stringWidth("Space to Start"))/2, SCREEN_HEIGHT/3);
         
         //Restart
         g.setColor(Color.orange);
