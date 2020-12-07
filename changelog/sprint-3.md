@@ -19,7 +19,7 @@
 | --- | ---------- | ------- | -------|
 | 3.1 | Create the score | Gilang | Done |
 | 3.2 | Implementation of GameOver | Diandha | Done |
-| 3.3 | Implementation of Restart  | Gilang | Failed |
+| 3.3 | Implementation of Restart  | Gilang | Done |
 | 3.4 | Test the game | Gilang | Done |
 | 3.5 | Fix bugs | Milyanda | Done |
 | 3.6 | Make sure the game is ready | Gilang | Done  |
