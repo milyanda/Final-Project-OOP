@@ -200,12 +200,6 @@ private static boolean gameOn = false;
         FontMetrics metrics3 = getFontMetrics(g.getFont());
         g.drawString("Space to Start", (SCREEN_WIDTH - metrics3.stringWidth("Space to Start"))/2, SCREEN_HEIGHT/3);
         
-        //Restart
-        g.setColor(Color.orange);
-        g.setFont(new Font("Ink Free", Font.BOLD, 20));
-        FontMetrics metrics7 = getFontMetrics(g.getFont());
-        g.drawString("Shift to Restart", (SCREEN_WIDTH - metrics7.stringWidth("Shift to Restart"))/2, SCREEN_HEIGHT/4);
-        
 
         //Score
         g.setColor(Color.white);
@@ -275,16 +269,8 @@ private static boolean gameOn = false;
                 break;
 		
                 case KeyEvent.VK_SPACE:
-                if(running == false){
-                    running = true;
-                    awal = 0;
-                    applesEaten = 0;
-                    repaint();
-                }
-                break;
-		
-		case KeyEvent.VK_SHIFT:
                 reset();
+                
                 break;
 	
             }
